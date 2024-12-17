@@ -67,7 +67,7 @@ export default function Home() {
           <Model ref={modelRef} />
         </Canvas>
         <div className="flex justify-center items-center h-screen z-10">
-          <Image src="/logo.png" width={200} height={200} />
+          <Image src="/logo.png" width={200} height={200} alt="logo" />
           <div className="flex flex-col items-center">
             <h1 className="text-8xl">Only <span className="text-ablue">Cards</span></h1>
             <h2 className="text-bblue text-3xl">Your <span className="text-white">cards</span>, your <span className="text-white">life</span></h2>
@@ -83,7 +83,7 @@ export default function Home() {
             <div className="flex-col">
               <h2 className="text-5xl">Custom Cards</h2>
               <p className="text-2xl">
-                No two games are the same. AI creates cards tailored to your interests and style, making every match feel personal and fresh. Whether you're a strategist, collector, or casual player, the game adapts to you.
+                No two games are the same. AI creates cards tailored to your interests and style, making every match feel personal and fresh. Whether youre a strategist, collector, or casual player, the game adapts to you.
               </p>
             </div>
             <Canvas className="w-1/2">
@@ -100,7 +100,7 @@ export default function Home() {
             <div className="flex-col">
               <h2 className="text-5xl">Own What You Play</h2>
               <p className="text-2xl">
-              Your cards aren't just pixels—they're yours. Each card is an NFT, meaning you can trade, upgrade, or sell them. Real ownership, real value, and endless possibilities to build the perfect deck.
+              Your cards arent just pixels—theyre yours. Each card is an NFT, meaning you can trade, upgrade, or sell them. Real ownership, real value, and endless possibilities to build the perfect deck.
               </p>
             </div>
           </div>
